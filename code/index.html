@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sprint 1: Form assignment</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <section>
+    <div class="image-box">
+      <img src="images/insta.png" alt="Instagram screen print">
+    </div>
+
+    <form action="http://httpbin.org/anything" method="POST">
+
+      <div class="title">
+        <img src="images/Instagram_logo.png" alt="Instagram logo">
+      </div>
+
+<button>Sign in with Facebook</button>
+
+      <div>
+        <label for="text">Username</label>
+        <input id="text" type="text" name="firstName" value="User name" />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" value="Email" />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input id="password" type="password" name="password" value="Password" />
+
+      </div>
+
+      <div class="radio-button">
+        <label for="radio">Gender</label>
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="other"> Other
+      </div>
+
+      <button>Sign up</button>
+
+      <div class="consent">
+        <label for="checkbox"></label>
+        <input type="checkbox" name="consent" value="Consent">I agree to Instagram's Terms of Service, Data Policy, and Cookie Policy.
+      </div>
+
+    </form>
+
+
+  </section>
+
+  <!-- <div>
+      <label>
+      Name
+      <input type="text" name="firstName" placeholder="Name" required />
+    </label>
+  </div> -->
+
+  </body>
+</html>

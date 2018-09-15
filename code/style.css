@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+  font-size: 14px;
+  background: #f6f6f6;
+  display: flex;
+  justify-content: flex-end;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px auto 0;
+  padding-bottom: 44px;
+}
+
+.image-box {
+  margin: 20px 30px auto;
+
+}
+
+.image-box img {
+  max-height: 600px;
+}
+
+.title {
+  margin: 22px auto 12px;
+}
+
+.title img {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+form {
+  width: 400px;
+  height: 600px;
+  color: #222;
+  margin: 20px;
+  background: #fff;
+  border: solid 1px #e6e6e6
+
+}
+
+div {
+  margin: 0 40px 6px;
+  color: #999;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 22px auto 12px;
+}
+
+input {
+  width: auto;
+  height: 40px;
+  border: 1px solid #efefef;
+  background: #fafafa;
+
+}
+
+label {
+display: none;
+}
+
+
+button {
+  width: 80%;
+  background: #3897f0;
+  border-color: #3897f0;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 40px 6px 40px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.radio-button {
+  font-size: 9px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 150px;
+}
+
+.consent {
+  font-size: 12px;
+  margin: 22px;
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+}
