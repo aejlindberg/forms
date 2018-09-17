@@ -12,7 +12,7 @@
       <img src="images/insta.png" alt="Instagram screen print">
     </div>
 
-    <form action="http://httpbin.org/anything" method="POST">
+    <form action="http://httpbin.org/anything" method="POST" id="form123">
 
       <div class="title">
         <img src="images/Instagram_logo.png" alt="Instagram logo">
@@ -31,17 +31,17 @@
 
       <div>
         <label for="text">Username</label>
-        <input id="text" type="text" name="firstName" value="User name" />
+        <input id="text" type="text" name="usrname" onfocus="this.value=''" value="User name" required/>
       </div>
 
       <div>
         <label for="email">Email</label>
-        <input id="email" type="email" name="email" value="Email" />
+        <input id="email" type="email" name="email" onfocus="this.value=''" value="Email" required/>
       </div>
 
       <div>
         <label for="password">Password</label>
-        <input id="password" type="password" name="password" value="Password" />
+        <input id="password" type="password" name="password" onfocus="this.value=''" value="Password" required/>
 
       </div>
 
@@ -52,13 +52,11 @@
         <input type="radio" name="gender" value="other"> Other
       </div>
 
-      <div class="button">
-        <input type="submit" value="Sign up">
-      </div>
+     <button type="submit" form="form123" value="Submit">Sign up</button>
 
       <div class="consent">
         <label for="checkbox"></label>
-        <input type="checkbox" name="consent" ><strong>I agree</strong><br>By signing up, you agree to our Terms of Service, our Data Policy, and our Cookie Policy. Learn more about how we collect, use and share your information in our data policy and how we use cookies and similar technologies in our Cookie Policy.
+        <input type="checkbox" name="consent" required><strong>I agree</strong><br>By signing up, you agree to our Terms of Service, our Data Policy, and our Cookie Policy. Learn more about how we collect, use and share your information in our data policy and how we use cookies and similar technologies in our Cookie Policy.
       </div>
 
     </form>
