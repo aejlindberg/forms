@@ -36,12 +36,26 @@ section {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+}
 
+.or {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.or .line {
+  border-top: solid 1px;
+}
+
+.or p {
+  justify-content: center;
+  color: #999;
 }
 
 form {
   width: 400px;
-  height: 600px;
+  height: 650px;
   color: #222;
   margin: 20px;
   background: #fff;
@@ -56,6 +70,20 @@ div {
   flex-direction: column;
 }
 
+.facebook a {
+  width: 100%;
+  background: #3897f0;
+  border-color: #3897f0;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  /* margin: 0 40px 6px 40px; */
+  padding: 10px;
+
+}
+
 h1 {
   margin: 22px auto 12px;
 }
@@ -65,7 +93,6 @@ input {
   height: 40px;
   border: 1px solid #efefef;
   background: #fafafa;
-
 }
 
 label {
@@ -73,10 +100,10 @@ display: none;
 }
 
 
-button {
+.button {
   width: 80%;
   background: #3897f0;
-  border-color: #3897f0;
+  /* border-color: #3897f0; */
   color: #fff;
   text-align: center;
   font-size: 14px;
@@ -98,9 +125,11 @@ button {
 
 .consent {
   font-size: 12px;
-  margin: 22px;
+  margin: 10px 40px;
+  text-align: center;
   display: flex;
-  flex-direction: row wrap;
-  justify-content: flex-start;
-  align-items: baseline;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
